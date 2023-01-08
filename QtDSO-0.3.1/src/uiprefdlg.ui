@@ -1,0 +1,1216 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>UIPrefDlg</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>UIPrefDlg</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>546</width>
+            <height>458</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>QtDSO: Preferences</string>
+    </property>
+    <property name="sizeGripEnabled">
+        <bool>true</bool>
+    </property>
+    <property name="layoutMargin" stdset="0">
+    </property>
+    <property name="layoutSpacing" stdset="0">
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <property name="margin">
+            <number>10</number>
+        </property>
+        <property name="spacing">
+            <number>5</number>
+        </property>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout5</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="spacing">
+                    <number>5</number>
+                </property>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel1</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Device:</string>
+                    </property>
+                </widget>
+                <widget class="QComboBox">
+                    <item>
+                        <property name="text">
+                            <string>Simulator 2x14bit</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Velleman PCS64i</string>
+                        </property>
+                    </item>
+                    <property name="name">
+                        <cstring>ui_device</cstring>
+                    </property>
+                    <property name="currentItem">
+                        <number>1</number>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer22</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>151</width>
+                            <height>31</height>
+                        </size>
+                    </property>
+                </spacer>
+            </hbox>
+        </widget>
+        <widget class="QButtonGroup">
+            <property name="name">
+                <cstring>ButtonGroup35</cstring>
+            </property>
+            <property name="title">
+                <string>Display</string>
+            </property>
+            <property name="layoutMargin" stdset="0">
+            </property>
+            <property name="layoutSpacing" stdset="0">
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>10</number>
+                </property>
+                <property name="spacing">
+                    <number>5</number>
+                </property>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>Layout87</cstring>
+                    </property>
+                    <property name="layoutSpacing" stdset="0">
+                    </property>
+                    <grid>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <property name="margin">
+                            <number>0</number>
+                        </property>
+                        <property name="spacing">
+                            <number>5</number>
+                        </property>
+                        <spacer row="0" column="2">
+                            <property name="name">
+                                <cstring>Spacer76</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>20</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                        <widget class="QLabel" row="0" column="0">
+                            <property name="name">
+                                <cstring>TextLabel1</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Channel 1:</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignVCenter|AlignRight</set>
+                            </property>
+                            <property name="hAlign" stdset="0">
+                            </property>
+                        </widget>
+                        <widget class="ColorButton" row="1" column="1">
+                            <property name="name">
+                                <cstring>ui_ch2Color</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>50</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>50</width>
+                                    <height>32767</height>
+                                </size>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="3" column="0">
+                            <property name="name">
+                                <cstring>TextLabel4</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Subtraction (CH1-CH2):</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignVCenter|AlignRight</set>
+                            </property>
+                            <property name="hAlign" stdset="0">
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="0" column="3">
+                            <property name="name">
+                                <cstring>TextLabel10</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Time marker:</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignVCenter|AlignRight</set>
+                            </property>
+                            <property name="hAlign" stdset="0">
+                            </property>
+                        </widget>
+                        <widget class="ColorButton" row="1" column="4">
+                            <property name="name">
+                                <cstring>ui_bgColor</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>50</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>50</width>
+                                    <height>32767</height>
+                                </size>
+                            </property>
+                        </widget>
+                        <widget class="ColorButton" row="3" column="4">
+                            <property name="name">
+                                <cstring>ui_borderColor</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>50</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>50</width>
+                                    <height>32767</height>
+                                </size>
+                            </property>
+                        </widget>
+                        <widget class="ColorButton" row="2" column="1">
+                            <property name="name">
+                                <cstring>ui_addColor</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>50</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>50</width>
+                                    <height>32767</height>
+                                </size>
+                            </property>
+                        </widget>
+                        <spacer row="3" column="2">
+                            <property name="name">
+                                <cstring>Spacer79</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>20</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                        <widget class="QSpinBox" row="4" column="4">
+                            <property name="name">
+                                <cstring>ui_lineWidth</cstring>
+                            </property>
+                            <property name="maxValue">
+                                <number>7</number>
+                            </property>
+                            <property name="minValue">
+                                <number>1</number>
+                            </property>
+                            <property name="lineStep">
+                                <number>2</number>
+                            </property>
+                            <property name="value">
+                                <number>3</number>
+                            </property>
+                        </widget>
+                        <widget class="QPushButton" row="4" column="1" rowspan="1" colspan="2">
+                            <property name="name">
+                                <cstring>ui_fontBut</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Click to select</string>
+                            </property>
+                            <property name="autoDefault">
+                                <bool>false</bool>
+                            </property>
+                        </widget>
+                        <widget class="ColorButton" row="2" column="4">
+                            <property name="name">
+                                <cstring>ui_gridColor</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>50</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>50</width>
+                                    <height>32767</height>
+                                </size>
+                            </property>
+                        </widget>
+                        <spacer row="3" column="5">
+                            <property name="name">
+                                <cstring>Spacer86</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>20</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                        <spacer row="0" column="5">
+                            <property name="name">
+                                <cstring>Spacer80</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>20</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                        <spacer row="2" column="5">
+                            <property name="name">
+                                <cstring>Spacer85</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>20</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                        <widget class="QLabel" row="4" column="3">
+                            <property name="name">
+                                <cstring>TextLabel17</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Line width:</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignVCenter|AlignRight</set>
+                            </property>
+                            <property name="hAlign" stdset="0">
+                            </property>
+                        </widget>
+                        <widget class="ColorButton" row="3" column="1">
+                            <property name="name">
+                                <cstring>ui_subColor</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>50</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>50</width>
+                                    <height>32767</height>
+                                </size>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="2" column="0">
+                            <property name="name">
+                                <cstring>TextLabel3</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Addition (CH1+CH2):</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignVCenter|AlignRight</set>
+                            </property>
+                            <property name="hAlign" stdset="0">
+                            </property>
+                        </widget>
+                        <spacer row="4" column="5">
+                            <property name="name">
+                                <cstring>Spacer93</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>20</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                        <widget class="QLabel" row="4" column="0">
+                            <property name="name">
+                                <cstring>TextLabel15</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Font:</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignVCenter|AlignRight</set>
+                            </property>
+                            <property name="hAlign" stdset="0">
+                            </property>
+                        </widget>
+                        <widget class="ColorButton" row="0" column="1">
+                            <property name="name">
+                                <cstring>ui_ch1Color</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>50</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>50</width>
+                                    <height>32767</height>
+                                </size>
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="1" column="0">
+                            <property name="name">
+                                <cstring>TextLabel2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Channel 2:</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignVCenter|AlignRight</set>
+                            </property>
+                            <property name="hAlign" stdset="0">
+                            </property>
+                        </widget>
+                        <spacer row="2" column="2">
+                            <property name="name">
+                                <cstring>Spacer78</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>20</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                        <spacer row="1" column="5">
+                            <property name="name">
+                                <cstring>Spacer84</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>20</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                        <widget class="QLabel" row="2" column="3">
+                            <property name="name">
+                                <cstring>TextLabel13</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Grid:</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignVCenter|AlignRight</set>
+                            </property>
+                            <property name="hAlign" stdset="0">
+                            </property>
+                        </widget>
+                        <widget class="QLabel" row="3" column="3">
+                            <property name="name">
+                                <cstring>TextLabel14</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Border:</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignVCenter|AlignRight</set>
+                            </property>
+                            <property name="hAlign" stdset="0">
+                            </property>
+                        </widget>
+                        <widget class="ColorButton" row="0" column="4">
+                            <property name="name">
+                                <cstring>ui_timeMarkerColor</cstring>
+                            </property>
+                            <property name="minimumSize">
+                                <size>
+                                    <width>50</width>
+                                    <height>0</height>
+                                </size>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>50</width>
+                                    <height>32767</height>
+                                </size>
+                            </property>
+                        </widget>
+                        <spacer row="1" column="2">
+                            <property name="name">
+                                <cstring>Spacer77</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>20</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                        <widget class="QLabel" row="1" column="3">
+                            <property name="name">
+                                <cstring>TextLabel12</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Background:</string>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignVCenter|AlignRight</set>
+                            </property>
+                            <property name="hAlign" stdset="0">
+                            </property>
+                        </widget>
+                    </grid>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>Spacer88</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>Layout74</cstring>
+                    </property>
+                    <property name="layoutSpacing" stdset="0">
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <property name="margin">
+                            <number>0</number>
+                        </property>
+                        <property name="spacing">
+                            <number>5</number>
+                        </property>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>ui_defaultColors</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Factory defaults</string>
+                            </property>
+                            <property name="autoDefault">
+                                <bool>false</bool>
+                            </property>
+                        </widget>
+                        <spacer>
+                            <property name="name">
+                                <cstring>Spacer87</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>20</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                    </hbox>
+                </widget>
+            </vbox>
+        </widget>
+        <widget class="QButtonGroup">
+            <property name="name">
+                <cstring>ButtonGroup36</cstring>
+            </property>
+            <property name="title">
+                <string>FFT</string>
+            </property>
+            <property name="layoutMargin" stdset="0">
+            </property>
+            <property name="layoutSpacing" stdset="0">
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>10</number>
+                </property>
+                <property name="spacing">
+                    <number>5</number>
+                </property>
+                <widget class="QComboBox" row="1" column="4" rowspan="1" colspan="2">
+                    <item>
+                        <property name="text">
+                            <string>No zoom</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Zoom x2</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Zoom x4</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Zoom x8</string>
+                        </property>
+                    </item>
+                    <property name="name">
+                        <cstring>ui_defaultFftZoom</cstring>
+                    </property>
+                    <property name="enabled">
+                        <bool>false</bool>
+                    </property>
+                    <property name="currentItem">
+                        <number>1</number>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="2" column="0">
+                    <property name="name">
+                        <cstring>TextLabel7</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Average buffer depth:</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignVCenter|AlignRight</set>
+                    </property>
+                    <property name="hAlign" stdset="0">
+                    </property>
+                </widget>
+                <widget class="QLabel" row="1" column="3">
+                    <property name="name">
+                        <cstring>TextLabel9</cstring>
+                    </property>
+                    <property name="enabled">
+                        <bool>false</bool>
+                    </property>
+                    <property name="text">
+                        <string>Default FFT zoom:</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignVCenter|AlignRight</set>
+                    </property>
+                    <property name="hAlign" stdset="0">
+                    </property>
+                </widget>
+                <spacer row="0" column="2">
+                    <property name="name">
+                        <cstring>Spacer63</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QComboBox" row="0" column="4" rowspan="1" colspan="2">
+                    <item>
+                        <property name="text">
+                            <string>128</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>256</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>512</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>1024</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>2048</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>4096</string>
+                        </property>
+                    </item>
+                    <property name="name">
+                        <cstring>ui_defaultFftLength</cstring>
+                    </property>
+                    <property name="enabled">
+                        <bool>false</bool>
+                    </property>
+                    <property name="currentItem">
+                        <number>3</number>
+                    </property>
+                </widget>
+                <widget class="QComboBox" row="1" column="1">
+                    <item>
+                        <property name="text">
+                            <string>Line</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Needles</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Points</string>
+                        </property>
+                    </item>
+                    <property name="name">
+                        <cstring>ui_ch2Drawmode</cstring>
+                    </property>
+                </widget>
+                <spacer row="0" column="6">
+                    <property name="name">
+                        <cstring>Spacer66</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QComboBox" row="2" column="1">
+                    <item>
+                        <property name="text">
+                            <string>10</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>20</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>50</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>100</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>200</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>500</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>1000</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>2000</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>5000</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>10000</string>
+                        </property>
+                    </item>
+                    <property name="name">
+                        <cstring>ui_averageBufferLength</cstring>
+                    </property>
+                    <property name="currentItem">
+                        <number>3</number>
+                    </property>
+                </widget>
+                <widget class="QLabel" row="0" column="0">
+                    <property name="name">
+                        <cstring>TextLabel5</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Channel 1 drawmode:</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignVCenter|AlignRight</set>
+                    </property>
+                    <property name="hAlign" stdset="0">
+                    </property>
+                </widget>
+                <widget class="QLabel" row="1" column="0">
+                    <property name="name">
+                        <cstring>TextLabel6</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Channel 2 drawmode:</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignVCenter|AlignRight</set>
+                    </property>
+                    <property name="hAlign" stdset="0">
+                    </property>
+                </widget>
+                <widget class="QComboBox" row="0" column="1">
+                    <item>
+                        <property name="text">
+                            <string>Line</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Needles</string>
+                        </property>
+                    </item>
+                    <item>
+                        <property name="text">
+                            <string>Points</string>
+                        </property>
+                    </item>
+                    <property name="name">
+                        <cstring>ui_ch1Drawmode</cstring>
+                    </property>
+                </widget>
+                <spacer row="1" column="2">
+                    <property name="name">
+                        <cstring>Spacer64</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QLabel" row="0" column="3">
+                    <property name="name">
+                        <cstring>TextLabel8</cstring>
+                    </property>
+                    <property name="enabled">
+                        <bool>false</bool>
+                    </property>
+                    <property name="text">
+                        <string>Default FFT length:</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignVCenter|AlignRight</set>
+                    </property>
+                    <property name="hAlign" stdset="0">
+                    </property>
+                </widget>
+                <widget class="QLayoutWidget" row="4" column="0" rowspan="1" colspan="7">
+                    <property name="name">
+                        <cstring>Layout75</cstring>
+                    </property>
+                    <property name="layoutSpacing" stdset="0">
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <property name="margin">
+                            <number>0</number>
+                        </property>
+                        <property name="spacing">
+                            <number>5</number>
+                        </property>
+                        <widget class="QPushButton">
+                            <property name="name">
+                                <cstring>ui_defaultFft</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Factory defaults</string>
+                            </property>
+                            <property name="autoDefault">
+                                <bool>false</bool>
+                            </property>
+                        </widget>
+                        <spacer>
+                            <property name="name">
+                                <cstring>Spacer90</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>20</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                    </hbox>
+                </widget>
+                <spacer row="3" column="2">
+                    <property name="name">
+                        <cstring>Spacer89</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Vertical</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <spacer row="2" column="2">
+                    <property name="name">
+                        <cstring>Spacer65</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QLabel" row="2" column="3">
+                    <property name="name">
+                        <cstring>TextLabel17_2</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Line width:</string>
+                    </property>
+                    <property name="alignment">
+                        <set>AlignVCenter|AlignRight</set>
+                    </property>
+                    <property name="hAlign" stdset="0">
+                    </property>
+                </widget>
+                <spacer row="1" column="6">
+                    <property name="name">
+                        <cstring>Spacer67</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QSpinBox" row="2" column="4">
+                    <property name="name">
+                        <cstring>ui_lineWidthFft</cstring>
+                    </property>
+                    <property name="maxValue">
+                        <number>3</number>
+                    </property>
+                    <property name="minValue">
+                        <number>1</number>
+                    </property>
+                    <property name="value">
+                        <number>1</number>
+                    </property>
+                </widget>
+                <spacer row="2" column="5" rowspan="1" colspan="2">
+                    <property name="name">
+                        <cstring>Spacer67_2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </grid>
+        </widget>
+        <spacer>
+            <property name="name">
+                <cstring>Spacer83</cstring>
+            </property>
+            <property name="orientation">
+                <enum>Vertical</enum>
+            </property>
+            <property name="sizeType">
+                <enum>Expanding</enum>
+            </property>
+            <property name="sizeHint">
+                <size>
+                    <width>20</width>
+                    <height>20</height>
+                </size>
+            </property>
+        </spacer>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>Layout24</cstring>
+            </property>
+            <property name="layoutSpacing" stdset="0">
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>0</number>
+                </property>
+                <property name="spacing">
+                    <number>5</number>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>Spacer11</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>ui_apply</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Apply</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>ui_ok</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Ok</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+O</string>
+                    </property>
+                    <property name="default">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>ui_close</cstring>
+                    </property>
+                    <property name="text">
+                        <string>&amp;Close</string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<customwidgets>
+    <customwidget>
+        <class>ColorButton</class>
+        <header location="local">colorbutton.h</header>
+        <sizehint>
+            <width>-1</width>
+            <height>-1</height>
+        </sizehint>
+        <container>0</container>
+        <sizepolicy>
+            <hordata>5</hordata>
+            <verdata>5</verdata>
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+        </sizepolicy>
+        <pixmap>image0</pixmap>
+    </customwidget>
+</customwidgets>
+<images>
+    <image name="image0">
+        <data format="PNG" length="1027">89504e470d0a1a0a0000000d4948445200000016000000160806000000c4b46c3b000003ca49444154789cb595c18b1c451487bfd13ebc362b54c759e9960d6c434427249059c84131875d0824012f811cf6a8012f7af3284810fc0ff422040f1e728bb7e410c85e643610d9c941d281446b20035d98c12a4c433f42b1eba167b38eab1e040b9aa6e0d557af7eef57f57aa3d188fdf1d91797f6dc54f92f235f11befcfc466f7fde1b8d467c75fdcade78abe6c30f3e261583488a6a4b1bff6593d8fd54153ba9b04f6adcb462b85ef0c9e6b55e02d0413fa52c4bdcd31a3ff390406684729041e269a3431b8f7d04da08daa473700b89906519c492f196854de8ad9fcff72e9ebb42590e70754d3d739479cee04c89e9038943d5a2d1a331d0361ee7145b097e5aa011b409a882b61e3f0b88f1246eaaa462704fe7d0d59c8befafe1d5129a1dbc56a83a4804490404cc4a60d0afa9a7966aeb041a01da4e9e04dc5449004452fccc77d00b6bd4cd083bbb813696fa8999ebd942925214822c75fa167980f51dc6b70668032d00021dbfd329eb4b07d511d5f46bc20c1e6c0f08936ca1666381f274cde04c37cf72a53ce9a8eee60b712f01b45131cb293e56d4b31b8419ecdc3e0c1dbe07e5db2df66e41b55db2ef99e2cd1a9145b724fb8bcae3426876708dc5de2bd159ba00dd38bfcaf06c4650cb9d68b13f1698dc931d0bc89262561df553b39871278d47a34383504f8abf40876c5cd840120328c3730104ec4f0771c54a7b588a2e7785a8dd51e241c0e0f42aefac0f01edeca69eeddbe6505c762cfc0338eadc5207ba96270d9736df2515a5d51a8d35aa8a7702717e51822c687b081c1a45128348575db30297364ba0c63715412bbc5a44948dcb8af44104c474256c9fc902f845f188be03f6334caea8423db3644be06320048f2c299208c6081b973dc1d52f96bbc78b0e7a69ff1876a2787590784e9c6d51859bd703d5d4b27dcb73f3bb0cf75850ed321309983cccb516da287f0306ea47420816558b59a9d8b8fc006d5aee7c9b61ef67d0c0e8fb8cea1edddba1f5dcc78a6fc04dcc02f8e5e5d7e5ea60b046f82da2bb8e5733073192244af1968324213ddab0fc4643da6f30794def48204660b773516f37c11c0dd887198d36c4e74da7b19d549008f50f0544a53835d74ea03c6317cb1d39b025bcc85a9695f254cd786b9ef1a9357335fc9ed0ebf588cfc14d8467bfa6c82b4a7aa481ddb8f8c508bb50d786e9c382ec35a5d504f7f312ee978430837e3eef20573ebab897e725a974fedcbf4345a914b9273f7e607e3731d42e2558431ba11c04b2158fbd2fd44f20cc02d7beb9d97590e17ac178cb62968ab901bb0adb31583260d14a7f1661bc0d22d23df82190af746b7bff5733fd03180609d52c5b371e0000000049454e44ae426082</data>
+    </image>
+</images>
+<layoutdefaults spacing="6" margin="11"/>
+<includehints>
+    <includehint>colorbutton.h</includehint>
+    <includehint>colorbutton.h</includehint>
+    <includehint>colorbutton.h</includehint>
+    <includehint>colorbutton.h</includehint>
+    <includehint>colorbutton.h</includehint>
+    <includehint>colorbutton.h</includehint>
+    <includehint>colorbutton.h</includehint>
+    <includehint>colorbutton.h</includehint>
+</includehints>
+</UI>

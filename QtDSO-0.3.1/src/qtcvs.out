@@ -1,0 +1,480 @@
+===================================================================
+File: Doxyfile         	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:39 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/Doxyfile,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: Makefile         	Status: Unknown
+
+   Working revision:	No entry for Makefile
+   Repository revision:	1.3	/usr/local/cvsroot/QtDSO/src/Attic/Makefile,v
+
+===================================================================
+File: arrow_down.xpm   	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:52 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/arrow_down.xpm,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: arrow_up.xpm     	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:52 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/arrow_up.xpm,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: buttongrid.cpp   	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:16 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/buttongrid.cpp,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: buttongrid.h     	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:34 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/buttongrid.h,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: colorbutton.cpp  	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:16 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/colorbutton.cpp,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: colorbutton.h    	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:34 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/colorbutton.h,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: converterhistogramdlg.cpp	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:16 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/converterhistogramdlg.cpp,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: converterhistogramdlg.h	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:34 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/converterhistogramdlg.h,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: converterhistogramwid.cpp	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:16 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/converterhistogramwid.cpp,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: converterhistogramwid.h	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:34 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/converterhistogramwid.h,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: dampedfloat.cpp  	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:16 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/dampedfloat.cpp,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: dampedfloat.h    	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:34 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/dampedfloat.h,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: dso.cpp          	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:16 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/dso.cpp,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: dso.h            	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:34 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/dso.h,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: dso_mode.xpm     	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:52 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/dso_mode.xpm,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: dsovumeter.cpp   	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:16 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/dsovumeter.cpp,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: dsovumeter.h     	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:34 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/dsovumeter.h,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: dsowid.cpp       	Status: Up-to-date
+
+   Working revision:	1.2	Wed Oct 13 19:45:15 2004
+   Repository revision:	1.2	/usr/local/cvsroot/QtDSO/src/dsowid.cpp,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: dsowid.h         	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:35 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/dsowid.h,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: fft_mode.xpm     	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:52 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/fft_mode.xpm,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: main.cpp         	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:16 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/main.cpp,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: mainwid.cpp      	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:16 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/mainwid.cpp,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: mainwid.h        	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:35 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/mainwid.h,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: mainwindow.cpp   	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:16 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/mainwindow.cpp,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: mainwindow.h     	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:35 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/mainwindow.h,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: pcs64i.cpp       	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:16 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/pcs64i.cpp,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: pcs64i.h         	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:35 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/pcs64i.h,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: prefdlg.cpp      	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:16 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/prefdlg.cpp,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: prefdlg.h        	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:35 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/prefdlg.h,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: qtcvs.out        	Status: Unknown
+
+   Working revision:	No entry for qtcvs.out
+   Repository revision:	No revision control file
+
+===================================================================
+File: simplecfg.cpp    	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:16 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/simplecfg.cpp,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: simplecfg.h      	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:35 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/simplecfg.h,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: simulator.cpp    	Status: Up-to-date
+
+   Working revision:	1.3	Thu Oct 14 17:44:49 2004
+   Repository revision:	1.3	/usr/local/cvsroot/QtDSO/src/simulator.cpp,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: simulator.h      	Status: Up-to-date
+
+   Working revision:	1.3	Thu Oct 14 17:42:23 2004
+   Repository revision:	1.3	/usr/local/cvsroot/QtDSO/src/simulator.h,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: simulatorwid.cpp 	Status: Up-to-date
+
+   Working revision:	1.2	Wed Oct 13 19:50:17 2004
+   Repository revision:	1.2	/usr/local/cvsroot/QtDSO/src/simulatorwid.cpp,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: simulatorwid.h   	Status: Up-to-date
+
+   Working revision:	1.2	Wed Oct 13 19:47:32 2004
+   Repository revision:	1.2	/usr/local/cvsroot/QtDSO/src/simulatorwid.h,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: src.pro          	Status: Up-to-date
+
+   Working revision:	1.2	Wed Oct 13 19:15:13 2004
+   Repository revision:	1.2	/usr/local/cvsroot/QtDSO/src/src.pro,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: type.h           	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:35 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/type.h,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: uiabout.cpp      	Status: Unknown
+
+   Working revision:	No entry for uiabout.cpp
+   Repository revision:	No revision control file
+
+===================================================================
+File: uiabout.h        	Status: Unknown
+
+   Working revision:	No entry for uiabout.h
+   Repository revision:	No revision control file
+
+===================================================================
+File: uiabout.ui       	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:11 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/uiabout.ui,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: uiconverterhistogramdlg.cpp	Status: Unknown
+
+   Working revision:	No entry for uiconverterhistogramdlg.cpp
+   Repository revision:	No revision control file
+
+===================================================================
+File: uiconverterhistogramdlg.h	Status: Unknown
+
+   Working revision:	No entry for uiconverterhistogramdlg.h
+   Repository revision:	No revision control file
+
+===================================================================
+File: uiconverterhistogramdlg.ui	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:11 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/uiconverterhistogramdlg.ui,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: uimainwid.cpp    	Status: Unknown
+
+   Working revision:	No entry for uimainwid.cpp
+   Repository revision:	No revision control file
+
+===================================================================
+File: uimainwid.h      	Status: Unknown
+
+   Working revision:	No entry for uimainwid.h
+   Repository revision:	No revision control file
+
+===================================================================
+File: uimainwid.ui     	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:11 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/uimainwid.ui,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: uiprefdlg.cpp    	Status: Unknown
+
+   Working revision:	No entry for uiprefdlg.cpp
+   Repository revision:	No revision control file
+
+===================================================================
+File: uiprefdlg.h      	Status: Unknown
+
+   Working revision:	No entry for uiprefdlg.h
+   Repository revision:	No revision control file
+
+===================================================================
+File: uiprefdlg.ui     	Status: Up-to-date
+
+   Working revision:	1.2	Thu Oct 14 17:24:36 2004
+   Repository revision:	1.2	/usr/local/cvsroot/QtDSO/src/uiprefdlg.ui,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: uiprefdlg.ui~    	Status: Unknown
+
+   Working revision:	No entry for uiprefdlg.ui~
+   Repository revision:	No revision control file
+
+===================================================================
+File: uisimulatorwid.cpp	Status: Unknown
+
+   Working revision:	No entry for uisimulatorwid.cpp
+   Repository revision:	No revision control file
+
+===================================================================
+File: uisimulatorwid.h 	Status: Unknown
+
+   Working revision:	No entry for uisimulatorwid.h
+   Repository revision:	No revision control file
+
+===================================================================
+File: uisimulatorwid.ui	Status: Up-to-date
+
+   Working revision:	1.2	Wed Oct 13 19:54:05 2004
+   Repository revision:	1.2	/usr/local/cvsroot/QtDSO/src/uisimulatorwid.ui,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+
+===================================================================
+File: uisimulatorwid.ui~	Status: Unknown
+
+   Working revision:	No entry for uisimulatorwid.ui~
+   Repository revision:	No revision control file
+
+===================================================================
+File: xy_mode.xpm      	Status: Up-to-date
+
+   Working revision:	1.1	Fri Oct  8 17:48:52 2004
+   Repository revision:	1.1	/usr/local/cvsroot/QtDSO/src/xy_mode.xpm,v
+   Sticky Tag:		(none)
+   Sticky Date:		(none)
+   Sticky Options:	(none)
+

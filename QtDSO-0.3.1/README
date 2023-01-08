@@ -1,0 +1,41 @@
+QtDSO 0.1 (c) 2002 M.Toussaint
+
+QtDSO is a simple frontend for the Velleman PCS64i digital oscilloscope.
+It provides a fully featured oscillocope mode (including XY plot and math)
+and a highly configurable spectrum analyzer mode. It has been tested with
+the Velleman scope and didn't show problems here. If you encounter problems
+with your scope at home, don't use QtDSO. I will not take ANY responsibility
+on your hardware. 
+
+QtDSO is kind of "works for me" software. I'm using it, I like it the way 
+it is  and it seems  to be quite stable. It still needs some improvements 
+but does it's job quite well.
+
+QtDSO is distributed under the GNU Public License, version 2.
+
+You'll find 3 'official' icon files for QtDSO in this directory:
+
+- qtdso-16x16.xpm
+- qtdso-32.32.xpm
+- qtdso-48x48.xpm
+
+The tab size of the sourcefiles is 2 
+
+If someone want's to create RPM's, you are welcome. I will provide a download
+link on my site.
+
+DISCLAIMER:
+-----------
+
+This program is provided  AS IS with no warranties of any kind.  The
+author shall  have no liability  with respect to the infringement of
+copyrights, trade secrets or any patents by this program or any part
+thereof. In no event will the author be liable  for any lost revenue
+or profits or other special, indirect and consequential damages.
+
+USE AT YOUR OWN RISK
+
+-- 03/10/2002
+   Matthias Toussaint
+   <qtdso@mtoussaint.de>
+

@@ -1,0 +1,35 @@
+04/03/2007 0.3.1
+           - Fixed missing µ character in the GUI
+04/02/2007 0.3
+           - Envelope mode
+           - Internal cleanup and more complete API for DSO class
+           - Fully dynamic interface (to reflect DSO's capabilities)
+           - roughly calibrated delay in reading routine for PCS64i 
+             (stopped working with a fast machine). Still needs more
+             investigation. Velleman recomends reading/writing twice
+             to give optocouplers the time they need. Unfortunately
+             this lowers max framerate a lot.
+           - double buffer for Vu-meter
+           - simulator chrome
+           - Software trigger stabilization for interpolating modes
+           - 64MHz oversampling mode for PCS64i
+           - Persistent settings
+           - 4 digits for frequency display
+           - fixed configure script
+           - now compiles with gcc 4.x
+26/07/2004 0.2
+           - Converter histogram
+           - fixed single shot / continous button behaviour
+           - dc offset retrieval
+           - simulator
+24/07/2004 0.1.2
+           - QtDSO from now on needs fftw3
+19/07/2004 0.1.1
+           - Make it compile cleanly with gcc 3.x and Qt 3.x
+03/10/2002 0.1
+           - Initial release version 0.1
+
+-- 03/10/2002
+   Matthias Toussaint
+   <qtdso@mtoussaint.de>
+ 

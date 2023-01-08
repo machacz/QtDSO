@@ -1,0 +1,202 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>UIAbout</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>UIAbout</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>563</width>
+            <height>633</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Copyright - QtDSO</string>
+    </property>
+    <property name="layoutMargin" stdset="0">
+    </property>
+    <property name="layoutSpacing" stdset="0">
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <property name="margin">
+            <number>10</number>
+        </property>
+        <property name="spacing">
+            <number>5</number>
+        </property>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout5</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="spacing">
+                    <number>5</number>
+                </property>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>Layout2</cstring>
+                    </property>
+                    <property name="layoutSpacing" stdset="0">
+                    </property>
+                    <vbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <property name="margin">
+                            <number>0</number>
+                        </property>
+                        <property name="spacing">
+                            <number>5</number>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>PixmapLabel1</cstring>
+                            </property>
+                            <property name="pixmap">
+                                <pixmap>image0</pixmap>
+                            </property>
+                            <property name="alignment">
+                                <set>AlignCenter</set>
+                            </property>
+                            <property name="hAlign" stdset="0">
+                            </property>
+                        </widget>
+                        <spacer>
+                            <property name="name">
+                                <cstring>Spacer1</cstring>
+                            </property>
+                            <property name="orientation">
+                                <enum>Vertical</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>Expanding</enum>
+                            </property>
+                            <property name="sizeHint">
+                                <size>
+                                    <width>20</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                    </vbox>
+                </widget>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel1</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>7</hsizetype>
+                            <vsizetype>7</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="text">
+                        <string>&lt;h1&gt;QtDSO 0.3.1&lt;/h1&gt;
+&lt;hr&gt;
+QtDSO is a fully featured digital oscilloscope frontend for the Velleman PCS64i digital oscilloscope. 
+&lt;p&gt;QtDSO provides the following features:
+&lt;ul&gt;&lt;li&gt;Fully featured oscilloscope mode with adjustable time and amplitude markers and linear or sin(x)/x interpolation&lt;/li&gt;
+&lt;li&gt;XY-Oscilloscope mode&lt;/li&gt;
+&lt;li&gt;Fully featured spectrum analyzer mode with power or phase spectrum.&lt;/li&gt;
+&lt;/ul&gt;
+QtDSO takes advantage of FFTW (Fastest FFT in the West) &lt;font color=blue&gt;&lt;u&gt;&amp;lt;www.fftw.org&amp;gt;&lt;/u&gt;&lt;/font&gt;, a great and very fast FFT library. &lt;i&gt;(Don't forget to get it before the devil does :)&lt;/i&gt;, libieee1284 by Tim Waugh &lt;font color=blue&gt;&lt;u&gt;&amp;lt;http://cyberelk.net/tim/data/libieee1284&amp;gt;&lt;/u&gt;&lt;/font&gt; and Qt, a platform independent GUI libary from Trolltech AS Norway &lt;font color=blue&gt;&lt;u&gt;&amp;lt;www.trolltech.com&amp;gt;.&lt;/u&gt;&lt;/font&gt;&lt;p&gt;
+QtDSO is licensed under GPL.&lt;p&gt;
+&amp;copy;2002-2007 Matthias Toussaint&lt;br&gt;
+&lt;font color=blue&gt;&lt;u&gt;qtdso@mtoussaint.de&lt;/u&gt;&lt;/font&gt;</string>
+                    </property>
+                    <property name="alignment">
+                        <set>WordBreak|AlignTop</set>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>Layout1</cstring>
+            </property>
+            <property name="layoutSpacing" stdset="0">
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <property name="margin">
+                    <number>0</number>
+                </property>
+                <property name="spacing">
+                    <number>5</number>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>Spacer2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>PushButton1</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Ok</string>
+                    </property>
+                    <property name="default">
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>Spacer3</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>20</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<images>
+    <image name="image0">
+        <data format="PNG" length="1901">89504e470d0a1a0a0000000d49484452000000300000003008060000005702f98700000734494441546881ed994f88dcd61dc73f2e39bc82021a98010962d08335ac162f54437d98814056b4870cb490851cbc7bccaddb1ccae666432824a77ae921757ae9fad060e760320b69333d18d639ed1e1c760a6b2c1f0a6f0e05096660042bb00e81f4a09146d28c66a7f616c7c55f10bbfacdf7bdf7fbbdf7fbf3ded3a5a3a3235e65fce4652bf0a2786dc0cbc66b035e365e1bf0b2f1ff6540bbddfee16529f2df20afe7a5b4126f6d6dbd12caa708a390ded7bd4b97801f2ccb62fff35be886fd3f1b308ed405f615d37bd067ff8bdbbc910ae58a8d1f28ba07c71736500add106cbfb77961fd8d2330560280a901e308ba07c7ecfdf1d30b1b28856559b82d07d390f8c18baf441cc5c4d118c81990c7eeef6ef0acfec2e36490ba89d024e3e8e2fa4c31d780677558b34d00f433386c9ce05df500b01fdbb8c326e19b53fe228e3af3f9e99b50d358ca80388af18701525acf6f400a75e603d0b73cbc7aa25c6c416d68c25991bb0ca74a61a189ecdd1f06a8608cd93032799993c7b985ecf6fbb701d8b9bfc3cefd9d82cc88cca53955ca1f9d7a2835c864525ab4d7ed82f2654e1e0b5760dcf0b3ffcb8a8c1b3e46642ec5a982d004d2a861368cc9bb9cfccdb35481b3b401cf7c40568e7d6190d2aafc2d8e1471142fe4541a606a100cab67af363489a371e2eb0b389004f922a433ef9d3e4cc66e18f8c3007f12f44d6954c6c08c017a5de7f8bd43fa1ac411d8031b6760136889ab3883a45a1f5e3bccda9cc791b1499b8dc238f3b28dd930e83de873cfebb1f1abce8437068c023f6f4c6510f7eb1e9ee5e13e72b15573aaac6ae23e72f12c2f7bcee3f45613436a719871d26c13477141e6797d8ebe2bde94084d64fc326656201c85b40e5c1cc72eb8871199049a9fcd729a6d52a4f234688dc864e7fece34c857602c7498545029ad2c55d63450fff2b8f9f12dd656d7b8f1fb4f303532174ae3200de4bcd19531e00e9b59079e3ca13f99e9d410b5eea1073ab66a12687e263f6e1de2d77dcc9149ebd8450f924cc3caec18a92ba4056e6d750da361179497462de3cd8b834a030e1b27d04802b13f710567606733dc5b3dc4a94f5729d07cc60d3f73977e3d31b036340b55bb8c64361542136c5defa08271e62ad2a821a5b5b0905506b1677999cc1ed86c7dbbc9bd77ba748c10796a674af6dff7d8b9bf835a4f7c7debdb4d6ac3a43edc7ba78b3db0d97db45da9fcd1a997292aa555c8f74213339c730d48e18c6ce2c9323a83e94cf7560fe94c8c4a91669bce5397dad0cc56a9f3d445099feefae14c164a152c17a9f24ccfe3e4319385d220defe6e9bad87c993661867646746b88f5c36ffd6c9b20d40ebd805a6019dbecfcb4229a4b42add63194ee50aa8331fb4a2acfdd0858dc47500845603fc2c23a58aa708341ff7919bd4855216ba28140ce8fcd2016ed0719cccffcad81cb4f8884fd994adc9eff397360fa1b516fede1f0d38112705d907da66a57cae0171a4902b363b2be79f8befc67f5946efa571224eb833be53906dd3a994e7dd69c685f2473ea1c9c261bcfcfebc9c8b44750ca80130c8aa651cc528956cb6a4b49e9b93caf2efcdb809b5e2f842133447f3e54b556220773292c491870ac649557d014e1878d342a525463a750b3b9af5c92a791e95064869e56656217513f9f6746fe47f3f9ee1084d144e53e61b35cc2b35da57268de290b8c4816445faff9c6630dd10b82d67aebcdc76e10ae8864d1c299c11a8619f3b4f7d1c019bd75aa8a1079765c6c9b70108038f4fbeece2be25d8bc966421351c10f30c61db85b8f023188f8a192f8ee2b972d68baf0b0d08030fa99bc098f0b162efb33db67ee6e00a811885c4405c2a30699b10e8fe639ff82d892b124e380a11407c590253a34d0d82fab41fdd10084dcc9597b1308855302eb84d19fe2044857ddaeb36ba6113061e47a71ebe11d0bee2f0e4c35d3e3ae8b2f6d91edf5cff0059d751a370666f23a5953b174f95ac922f15c4e5bd87acebecfe62834dbb59944fb6bb690ce4f72dfabac3ce28c4f44e90753d6b23b4d9bd8dd0044293f41e74518f43b6afb726eea866e44bc580d0449625d470400dd87ddb2d1a69e9e8eb1b851890d24aceb8714878da4f0c9fb453a310a509daebd6dcdae09d3ee4f8e1314f9e3e415ed5694ff428cbf359eedc7b21fffb3101cf92c1734ffc6e0b61db95054a85fe6c9bab06f2dd24a0cbc54fa901bfddbd896d3bdcfdeb9fd8fff33e77bf3c268e626e7e7cab20effebd37d9872d5881c2a1fbb2a4bc2b4a0b4af9609e14a9e400125f2de5f0cb32c729de34980d0377a38dfa779fee41723a935713b76b5e5b2bc89d9f4ff756952b903f740b4d24a92ff7cc726452898331fe30b9fa2eb7c9aa758e93ae86d004bb1ffe0680fd2f6eb375bd83db720af2af0eee66f2f4763afbc0f155f71b6a5a712fb4e82857c559a6cd79fdcdbbdc2dcb0f8ffbecfd616fea4261e0816167292ac90af3b7d429e671f2779a8bda5571f2c9a3dc6f2a4fde7331104621bd077d8c95205b9a1f3384569bba50fa91aff3ebce2bf5910fa0f775efd27f005854f9fa7741562a0000000049454e44ae426082</data>
+    </image>
+</images>
+<connections>
+    <connection>
+        <sender>PushButton1</sender>
+        <signal>clicked()</signal>
+        <receiver>UIAbout</receiver>
+        <slot>accept()</slot>
+    </connection>
+</connections>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>
