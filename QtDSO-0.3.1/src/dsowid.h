@@ -25,9 +25,12 @@
 #include <qpixmap.h>
 #include <type.h>
 
+#include <stdlib.h>
+
 #include <fftw3.h>
 
 #include <dso.h>
+
 
 #define MAX_FFT_BUFFER_LENGTH 10000
 
