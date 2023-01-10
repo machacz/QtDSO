@@ -3,6 +3,10 @@ This is build environment for QtDSO, frontend for PC-based oscilloscope, Vellema
 http://www.mtoussaint.de/qtdso.html
 
 
+For ubuntu 12: 
+
+(following checked with aptitude)
+
 For installing GPP:
 
 The following actions will resolve these dependencies:
@@ -41,3 +45,19 @@ in dsowid.h, add:
 
 
 Requirements for running libfftw3 libieee1284
+
+
+
+For Ubuntu 14 I installed following packages:
+
+fontconfig-config_2.12.6-0ubuntu2_all.deb
+libfontconfig1_2.12.6-0ubuntu2_amd64.deb
+libstdc++6_8-20180414-1ubuntu2_amd64.deb
+libtqt3-mt_14.0.13-0ubuntu18.04.0+0_amd64.deb
+zlib1g_1.2.11.dfsg-0ubuntu2_amd64.deb
+gcc-8-base_8-20180414-1ubuntu2_amd64.deb
+libpng16-16_1.6.34-1_amd64.deb
+libtqt3-mt-dev_14.0.13-0ubuntu18.04.0+0_amd64.deb
+tqt3-dev-tools_14.0.13-0ubuntu18.04.0+0_amd64.deb
+
+all downloaded from https://ubuntu.pkgs.org/
